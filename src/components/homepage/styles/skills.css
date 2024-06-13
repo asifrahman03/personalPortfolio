@@ -1,0 +1,43 @@
+@import "../../../data/styles.css";
+
+.skills{
+    margin-right: 20px; /* Adds space on the right side of the skills card */
+}
+.skills-body{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.skill{
+    display: flex;
+    padding-bottom: 40px;
+    width: 400px;
+}
+
+.skill ul {
+    font-weight: 1000;
+    font-style: oblique;
+    color: var(--secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    text-align: left;
+}
+
+.skill ul li {
+    flex: 1 0 20%; /* Each item will take up 20% of the container width, allowing for 5 items per row */
+    margin: 10px; /* Adds space around each item */
+    border: 1px solid #ccc; /* Subtle border for each item */
+    background-color: #f2f0f0;
+    border-radius: 10px;
+    padding: 10px; /* Padding for content inside each item */
+    display: flex;
+    align-items: center; /* Center the content vertically */
+    justify-content: center; /* Center the content horizontally */
+}
+
+.skill ul li img {
+    width: 30px; /* Example size, adjust as needed */
+    height: 30px; /* Example size, adjust as needed */
+    margin-right: 10px; /* Space between the logo and the text */
+}
