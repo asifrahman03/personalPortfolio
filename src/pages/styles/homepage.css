@@ -47,6 +47,23 @@
 	transform: rotate(3deg);
 }
 
+.homepage-image-wrapper:hover {
+	animation: fluidShake 4s;
+}
+
+@keyframes fluidShake {
+	0%, 100% { transform: rotate(3deg); }
+	10% { transform: rotate(5deg); }
+	20% { transform: rotate(1deg); }
+	30% { transform: rotate(4deg); }
+	40% { transform: rotate(2deg); }
+	50% { transform: rotate(6deg); }
+	60% { transform: rotate(0deg); }
+	70% { transform: rotate(5deg); }
+	80% { transform: rotate(1deg); }
+	90% { transform: rotate(4deg); }
+}
+
 .homepage-image-wrapper img {
 	width: 100%;
 }

@@ -13,7 +13,7 @@
 
 .work-image {
 	height: 30px;
-	width: 30px; /* Adjusted to maintain aspect ratio */
+	width: 35px; /* Adjusted to maintain aspect ratio */
 	border-radius: 50%;
 	outline: 6px solid white;
 	box-shadow: 0px 7px 10px rgba(0, 0, 0, 0.25);

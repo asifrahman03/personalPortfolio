@@ -40,7 +40,7 @@ const Projects = () => {
 					<div className="projects-container">
 						<div className="title projects-title">
 							Things I’ve made trying to put my dent in the
-							<span style={{color: '#004AAD'}}> universe</span> 💫.
+							<span style={{color: '#004AAD'}}> universe</span> 💫
 						</div>
 
 						<div className="subtitle projects-subtitle">
