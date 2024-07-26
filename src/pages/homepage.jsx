@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
+import { Analytics } from "@vercel/analytics/react"
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -69,6 +70,7 @@ const Homepage = () => {
 		<React.Fragment>
 			<Helmet>
 				<title>{INFO.main.title}</title>
+				<Analytics />
 				<meta name="description" content={currentSEO.description} />
 				<meta
 					name="keywords"
@@ -93,7 +95,7 @@ const Homepage = () => {
 								</div>
 
 								<div className="subtitle homepage-subtitle">
-								Optimizing mundane tasks is my passion where I can focus on bridging the gap between tech and user. I have expertise in Java, Python, React, and C from my time as a <span style={{fontStyle: 'oblique', color: '#004AAD'}}>Undergraduate Research Assistant and Project Manager</span>. I am always looking for new challenges and opportunities to grow as a developer.
+								Optimizing mundane tasks with AI is my passion where I can focus on bridging the gap between tech and users. I have expertise in Java, Python, React, and C from my time as a <span style={{fontStyle: 'oblique', color: '#004AAD'}}>Undergraduate Research Assistant and Project Manager Intern</span>. I am always looking for new challenges and opportunities to grow as a AI developer.
 								</div>
 							</div>
 
@@ -102,7 +104,7 @@ const Homepage = () => {
 									<div className="homepage-image-wrapper">
 										<img
 											src={`homepage.JPG?v=${new Date().getTime()}`}
-											alt="heroImage"
+											alt="heroImage Asif Rahman"
 											className="homepage-image"
 										/>
 									</div>

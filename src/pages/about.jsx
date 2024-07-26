@@ -55,7 +55,7 @@ const About = () => {
 									<div className="about-image-wrapper">
 										<img
 											src={`about.jpg?v=${new Date().getTime()}`}
-											alt="about"
+											alt="about Asif Rahman"
 											className="about-image"
 										/>
 									</div>
