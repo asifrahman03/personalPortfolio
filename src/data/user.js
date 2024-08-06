@@ -8,8 +8,7 @@ const INFO = {
 
 	socials: {
 		github: "https://github.com/asifrahman03",
-		linkedin: "https://linkedin.com/asif-rahman-vt",
-		instagram: "https://instagram.com/a2if.r",
+		linkedin: "https://linkedin.com/asif-rahman-vt"
 	},
 
 	homepage: {
@@ -21,7 +20,7 @@ const INFO = {
 	about: {
 		title: "I am a Rising Senior in Computer Science at Virginia Tech",
 		description:
-			"During my time in college, I have learned Data Structures and Algorithms, Operating Systems, and utilizing Large Language Models. I am eager to learn Machine Learning to implement within future projects focused on human computer interaction. When I am not coding, I am passionate weight-lifter, reader, cook, and fashion artist! Get into contact with me on Instagram if you want to talk about those interests or more!",
+			"During my time in college, I have learned Data Structures and Algorithms, Operating Systems, and utilizing Large Language Models. I am eager to learn Machine Learning to implement within future projects focused on human computer interaction. When I am not coding, I am passionate weight-lifter, reader, cook, and fashion artist!",
 	},
 
 	projects: [
@@ -41,6 +40,15 @@ const INFO = {
 			logo: "https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg",
 			linkText: "View Project",
 			link: "https://github.com",
+		},
+
+		{
+			title: "InventTrack",
+			description:
+				"Inventory management app where users can input their inventory with AI integration with recipe generation based on the user's inventory. Additional AI features like photo recognition to be added in the future.",
+			logo: "https://t3.ftcdn.net/jpg/05/42/85/04/360_F_542850412_mbdrJttsmcColprJNmMeWgUoNsJLdFJn.jpg",
+			linkText: "View Project",
+			link: "https://invent-track.vercel.app/",
 		},
 
 		{

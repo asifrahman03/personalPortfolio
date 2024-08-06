@@ -29,6 +29,7 @@ const Skills = () => {
 								<li><img src="https://cdn.icon-icons.com/icons2/2699/PNG/512/expressjs_logo_icon_169185.png" alt="Express.js logo Asif Rahman"></img>Express.js</li>
 								<li><img src={process.env.PUBLIC_URL + '/api.png'} alt="RESTful API logo Asif Rahman"></img>RESTful APIs</li>
 								<li><img src="https://seeklogo.com/images/M/mongodb-logo-D13D67C930-seeklogo.com.png" alt="MongoDB logo Asif Rahman"></img>MongoDB</li>
+								<li><img src="https://w7.pngwing.com/pngs/562/910/png-transparent-firebase-angularjs-serverless-computing-node-js-others-angle-rectangle-orange-thumbnail.png" alt="MongoDB logo Asif Rahman"></img>Firebase</li>
 							</ul>
 						</div>
 
