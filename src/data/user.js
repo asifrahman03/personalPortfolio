@@ -43,6 +43,15 @@ const INFO = {
 		},
 
 		{
+			title: "InterWork.ai",
+			description:
+				"AI Chatbot app designed to help with interview preparation and learn more about different companies interview processes. Gives in-depth explanations and has multi-language support through mentioning of language desired.",
+			logo: "https://media.istockphoto.com/id/1413286466/vector/chat-bot-icon-robot-virtual-assistant-bot-vector-illustration.jpg?s=612x612&w=0&k=20&c=ZSG3eqGPDJgIgFUIuVxID64uVUF3eqM3LrrDWtaKses=",
+			linkText: "View Project",
+			link: "https://interview-prep-ai-nu.vercel.app/",
+		},
+
+		{
 			title: "InventTrack",
 			description:
 				"Inventory management app where users can input their inventory with AI integration with recipe generation based on the user's inventory. Additional AI features like photo recognition to be added in the future.",
