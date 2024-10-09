@@ -25,21 +25,21 @@ const INFO = {
 
 	projects: [
 		{
-			title: "C2llect (In Progress)",
+			title: "InstaPC",
 			description:
-				"Online market hub for college students where they can sell furniture to tickets and textbooks. Users can create communities to communicate with each other and host events or fundraisers.",
-			logo: "https://i.pinimg.com/474x/98/fd/41/98fd415643ef18d27af2f55af5b5d288.jpg",
+				"InstaPC is a cutting-edge platform that lets you instantly run multiple virtual PCs in your browser. With support for Windows, macOS, and Linux, you can effortlessly switch between operating systems from a single, user-friendly interface. Our integrated AI chatbot assists with VM configuration, ensuring you can easily set up the perfect environment for any task.",
+			logo: "https://cdn.discordapp.com/attachments/1271666732884299837/1284736366864764993/image.png?ex=6708043b&is=6706b2bb&hm=48d262379d47473e7277909bb3b15013e0f0fa22f1fd4c5460179af04e7a8948&",
 			linkText: "View Project",
-			link: "https://github.com/C2llect",
+			link: "https://github.com/MovementGH/InstaPC",
 		},
 
 		{
-			title: "PMGrowth (In Progress)",
+			title: "Flashy.ai (Currently making changes)",
 			description:
-				"Project management app designed to keep users and their teams accountable on taking their ideas from imagination to fruition.",
+				"AI-Powered flashcard SaaS to allow users to create a flashcard set for any text/file input. Users can access their saved collections and review them whenever.",
 			logo: "https://pbs.twimg.com/profile_images/1565710214019444737/if82cpbS_400x400.jpg",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/asifrahman03/Flashy.Ai",
 		},
 
 		{

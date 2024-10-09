@@ -30,6 +30,8 @@ const Skills = () => {
 								<li><img src={process.env.PUBLIC_URL + '/api.png'} alt="RESTful API logo Asif Rahman"></img>RESTful APIs</li>
 								<li><img src="https://seeklogo.com/images/M/mongodb-logo-D13D67C930-seeklogo.com.png" alt="MongoDB logo Asif Rahman"></img>MongoDB</li>
 								<li><img src="https://w7.pngwing.com/pngs/562/910/png-transparent-firebase-angularjs-serverless-computing-node-js-others-angle-rectangle-orange-thumbnail.png" alt="MongoDB logo Asif Rahman"></img>Firebase</li>
+								<li><img src={process.env.PUBLIC_URL + '/langchain.png'} alt="LangChain logo Asif Rahman"></img>LangChain</li>
+								<li><img src="https://www.svgrepo.com/show/373541/cuda.svg" alt="Nvidia CUDA logo Asif Rahman"></img>CUDA</li>
 							</ul>
 						</div>
 

@@ -14,6 +14,22 @@ const Works = () => {
 				body={
 					<div className="works-body">
 						<div className="work">
+							<div className="work-title">BURGS - Broadening Undergraduate Research Groups</div>
+							<div className="work-subtitle">
+								Undergraduate Researcher
+							</div>
+							<div className="work-description">
+								<ul>
+									<li>Developing an LLM agent with LangChain to generate efficient parallel versions of critical code, achieving a 30% improvement in matrix multiplication performance for torch.matmul</li>
+									<li>Implementing progressive optimizations including parallelization, vectorization, and other techniques for 40% greater speed</li>
+									<li>Utilizing CUDA, SLURM, and OpenMP for testing on NVIDIA GPUs, benchmarking optimized code against baseline
+									implementations with a 20% performance gain</li>
+								</ul>
+							</div>
+							<div className="work-duration">September 2024 - Present</div>
+						</div>
+
+						<div className="work">
 							<div className="work-title">Headstarter.ai</div>
 							<div className="work-subtitle">
 								Software Engineering Fellow
@@ -25,7 +41,7 @@ const Works = () => {
 									<li>Coached by Amazon, Bloomberg, and Capital One engineers on Agile, CI/CD, Git, and microservice patterns</li>
 								</ul>
 							</div>
-							<div className="work-duration">August 2024 - Present</div>
+							<div className="work-duration">August 2024 - September 2024</div>
 						</div>
 
 						<div className="work">
