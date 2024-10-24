@@ -28,7 +28,7 @@ const INFO = {
 			title: "InstaPC",
 			description:
 				"InstaPC is a cutting-edge platform that lets you instantly run multiple virtual PCs in your browser. With support for Windows, macOS, and Linux, you can effortlessly switch between operating systems from a single, user-friendly interface. Our integrated AI chatbot assists with VM configuration, ensuring you can easily set up the perfect environment for any task.",
-			logo: "https://cdn.discordapp.com/attachments/1271666732884299837/1284736366864764993/image.png?ex=6708043b&is=6706b2bb&hm=48d262379d47473e7277909bb3b15013e0f0fa22f1fd4c5460179af04e7a8948&",
+			logo: process.env.PUBLIC_URL + '/instapc.png',
 			linkText: "View Project",
 			link: "https://github.com/MovementGH/InstaPC",
 		},
